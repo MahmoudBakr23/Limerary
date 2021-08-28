@@ -23,9 +23,7 @@ const bookReducer = (state = initialState, action) => {
     case ADD_BOOK:
       return [...state, action.payload];
     case REMOVE_BOOK:
-      return {
-        state: action.id,
-      };
+      return state;
     default:
       return state;
   }
