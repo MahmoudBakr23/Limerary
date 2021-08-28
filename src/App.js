@@ -1,9 +1,12 @@
 import './App.css';
+import BooksForm from './containers/BooksForm';
+import BooksList from './containers/BooksList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi redux!</h1>
+      <BooksForm />
+      <BooksList />
     </div>
   );
 }
