@@ -2,7 +2,7 @@ import { ADD_BOOK, REMOVE_BOOK } from '../actions';
 
 const initialState = [
   {
-    id: Math.random().toPrecision(),
+    id: Math.random(),
     title: 'Our World',
     category: 'Action',
   },
@@ -23,7 +23,7 @@ const bookReducer = (state = initialState, action) => {
     case ADD_BOOK:
       return [...state, action.payload];
     case REMOVE_BOOK:
-      return state;
+      return state.filter((book) => book.id !== action.id);
     default:
       return state;
   }

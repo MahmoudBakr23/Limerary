@@ -6,9 +6,9 @@ const addBook = (book) => ({
   payload: book,
 });
 
-const removeBook = (book) => ({
+const removeBook = (id) => ({
   type: REMOVE_BOOK,
-  id: book.id,
+  id,
 });
 
 export {

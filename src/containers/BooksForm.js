@@ -24,7 +24,7 @@ const BooksForm = () => {
       <div>
         <input name="title" type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
         <select onChange={(e) => setCategory(e.target.value)}>
-          <option selected value="Select a category" disabled>Select a category</option>
+          <option value="Select a category" disabled>Select a category</option>
           <option value="Action">Action</option>
           <option value="Biography">Biography</option>
           <option value="History">History</option>
