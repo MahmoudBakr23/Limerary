@@ -1,4 +1,4 @@
-import { ADD_BOOK, REMOVE_BOOK } from '../actions';
+import { ADD_BOOK, REMOVE_BOOK } from '../actions/index';
 
 const initialState = [
   {

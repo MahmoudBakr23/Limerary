@@ -12,11 +12,11 @@ const removeBook = (id) => ({
   id,
 });
 
-const changeFilter = (books) => ({
+const changeFilter = (category) => ({
   type: CHANGE_FILTER,
-  payload: books,
+  category,
 });
 
 export {
-  addBook, removeBook, ADD_BOOK, REMOVE_BOOK, changeFilter,
+  addBook, removeBook, changeFilter, ADD_BOOK, REMOVE_BOOK, CHANGE_FILTER,
 };
