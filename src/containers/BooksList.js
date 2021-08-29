@@ -44,7 +44,6 @@ const BooksList = () => {
             handleRemove={handleRemove}
           />
         ))}
-        ;
       </tbody>
     </table>
   );
