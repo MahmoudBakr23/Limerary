@@ -5,9 +5,11 @@ import { Provider } from 'react-redux';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import store from './reducers/store';
+import Navbar from './components/Navbar';
 
 ReactDOM.render(
   <Provider store={store}>
+    <Navbar />
     <App />
   </Provider>,
   document.getElementById('root'),
