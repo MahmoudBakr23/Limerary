@@ -4,7 +4,7 @@
 
 > This is a book-store application where the user can do multiple interactions using the features provided to them which is built and delivered using react and redux.
 
-### Images of the app coming soon!
+![screenshot](./src/Screenshot.png)
 
 ## Built With
 
