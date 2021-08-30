@@ -20,11 +20,12 @@ const BooksForm = () => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      <div>
-        <input name="title" type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-        <select onChange={(e) => setCategory(e.target.value)}>
-          <option value="Select a category" disabled>Select a category</option>
+    <div className="form-container">
+      <h3>ADD NEW BOOK</h3>
+      <form onSubmit={onSubmit}>
+        <input name="title" type="text" value={title} placeholder="Book title" onChange={(e) => setTitle(e.target.value)} required />
+        <select onChange={(e) => setCategory(e.target.value)} required>
+          <option value="ALL">ALL</option>
           <option value="Action">Action</option>
           <option value="Biography">Biography</option>
           <option value="History">History</option>
@@ -32,9 +33,9 @@ const BooksForm = () => {
           <option value="Learning">Learning</option>
           <option value="Sci-Fi">Sci-Fi</option>
         </select>
-      </div>
-      <button type="submit">Submit</button>
-    </form>
+        <button type="submit">ADD BOOK</button>
+      </form>
+    </div>
   );
 };
 
