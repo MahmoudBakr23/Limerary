@@ -77,7 +77,6 @@ li {
 .categories {
   color: #121212;
   border-radius: 4px;
-  box-shadow: 0 0 60px 0 var(rgba(0, 0, 0, 0.05));
   background-color: #fafafa;
   opacity: 0.5;
 }
@@ -165,7 +164,6 @@ li {
 }
 
 .cc {
-  margin-bottom: 0.5;
   font-size: 0.8rem;
   margin-top: 0;
 }
