@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
-  padding: 0 3rem;
+  background-color: #f5f6fa;
 }
 
 header {
@@ -17,6 +17,8 @@ header {
   margin: 0;
   width: 100%;
   height: 100%;
+  background-color: #fff;
+  padding: 1rem 5rem;
 }
 
 nav {
@@ -24,6 +26,22 @@ nav {
   justify-content: space-between;
   align-content: center;
   align-items: center;
+}
+
+h4 {
+  color: #121212;
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  margin: 0.5rem 0;
+}
+
+h5 {
+  margin-top: 0.5rem;
+  color: #4386bf;
+  font-weight: 400;
 }
 
 .nav-items {
@@ -71,4 +89,114 @@ li {
   border: 1px #e8e8e8 solid;
   border-radius: 50%;
   text-align: center;
+}
+
+.container {
+  padding: 3rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.filter-container {
+  text-align: right;
+}
+
+.book-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+}
+
+.book-details {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.names {
+  padding: 0 5rem 0 2rem;
+}
+
+.track {
+  border-right: 2px solid #e8e8e8;
+  padding: 0 7rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.links li {
+  color: #4386bf;
+  font-weight: 400;
+  padding: 0;
+  cursor: pointer;
+}
+
+.links li button {
+  background: none;
+  border: none;
+  outline: none;
+  border-right: 2px solid #e8e8e8;
+  padding: 0 1rem;
+  color: #4386bf;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.links li button:hover,
+.links li button:visited {
+  text-decoration: none;
+}
+
+.links .no-padding {
+  padding-right: 1rem;
+  border-right: 2px solid #e8e8e8;
+}
+
+.links .no-border {
+  padding-left: 1rem;
+}
+
+.cc {
+  margin-bottom: 0.5;
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+
+.chapter {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #121212;
+  font-weight: 600;
+}
+
+.names button {
+  background-color: #0290ff;
+  padding: 0.5rem 1.5rem;
+  border: 0;
+  outline: 0;
+  color: #e8e8e8;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.track h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.track h6 {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.5;
 }

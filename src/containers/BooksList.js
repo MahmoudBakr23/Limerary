@@ -24,17 +24,11 @@ const BooksList = () => {
   };
 
   return (
-    <table>
-      <Filter handleFilter={handleFilter} />
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Category</th>
-          <th>Remove book</th>
-        </tr>
-      </thead>
-      <tbody>
+    <div className="container">
+      <div className="filter-container">
+        <Filter handleFilter={handleFilter} />
+      </div>
+      <div className="books-container">
         {booksDisplay().map((book) => (
           <Book
             key={book.id}
@@ -44,8 +38,8 @@ const BooksList = () => {
             handleRemove={handleRemove}
           />
         ))}
-      </tbody>
-    </table>
+      </div>
+    </div>
   );
 };
 
