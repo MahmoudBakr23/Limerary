@@ -20,8 +20,11 @@ const Book = (props) => {
       </div>
       <div className="book-details">
         <div className="track">
-          <h3>64%</h3>
-          <h6>Completed</h6>
+          <div className="graph" />
+          <div className="graph-data">
+            <h3>73%</h3>
+            <h6>Completed</h6>
+          </div>
         </div>
         <div className="names">
           <h4 className="cc">CURRENT CHAPTER</h4>

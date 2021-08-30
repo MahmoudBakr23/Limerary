@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Filter = ({ handleFilter }) => (
-  <div>
+  <div className="filterSelect">
+    <h2>Select category</h2>
     <select onChange={(e) => handleFilter(e)}>
       <option value="Select a category" disabled>Select a category</option>
       <option value="ALL">ALL</option>
