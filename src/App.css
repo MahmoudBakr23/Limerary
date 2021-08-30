@@ -20,7 +20,9 @@ header {
   padding: 1rem 5rem;
 }
 
-nav {
+nav,
+.nav-items,
+.book-container {
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -41,13 +43,6 @@ h5 {
   margin-top: 0.5rem;
   color: #4386bf;
   font-weight: 400;
-}
-
-.nav-items {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  align-content: center;
 }
 
 .nav-list {
@@ -96,9 +91,6 @@ li {
 }
 
 .book-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   align-content: center;
   background-color: #fff;
   padding: 1rem 2rem;
