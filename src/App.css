@@ -97,10 +97,6 @@ li {
   grid-template-columns: repeat(1, 1fr);
 }
 
-.filter-container {
-  text-align: right;
-}
-
 .book-container {
   display: flex;
   justify-content: space-between;
